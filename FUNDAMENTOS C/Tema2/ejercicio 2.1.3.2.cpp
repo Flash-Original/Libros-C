@@ -12,7 +12,6 @@ int main(){
 	scanf("%d",&x);
 	//cada byte cabe una letra del abecedario+cursiva+negrita y tipografia
 	res=x*1024;
-	res=res/8;
 	printf("Cabe %d palabras",res);
 	
 	return 0;
