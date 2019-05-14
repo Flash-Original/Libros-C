@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/*2.1.3.2 ¿Cuántas letras se podrían almacenar en una agenda electrónica que tenga 32kb
-de capacidad?(primero calcúlalo en papel y luego crea un programa en C que te dé la respuesta)
+/*2.1.3.2 Â¿CuÃ¡ntas letras se podrÃ­an almacenar en una agenda electrÃ³nica que tenga 32kb
+de capacidad?(primero calcÃºlalo en papel y luego crea un programa en C que te dÃ© la respuesta)
 
-1º Calcular cuanto ocupa cada letra ( en este caso cada byte es una letra 8 bits)
-2º Poner el calculo en el PC*/
+1Âº Calcular cuanto ocupa cada letra ( en este caso cada byte es una letra 8 bits)
+2Âº Poner el calculo en el PC*/
 
 int main(){
 	int x,res;
@@ -12,6 +12,7 @@ int main(){
 	scanf("%d",&x);
 	//cada byte cabe una letra del abecedario+cursiva+negrita y tipografia
 	res=x*1024;
+	res=res/8;
 	printf("Cabe %d palabras",res);
 	
 	return 0;
